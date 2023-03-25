@@ -1,0 +1,64 @@
+
+body{
+    background-color: rgb(250, 246, 246);
+}
+
+.parent{
+    
+    margin-top: 50px;
+    margin-left: 250px;
+    display: flex;
+    width: 1000px;
+    height: 500px;
+}
+
+.child1{
+    flex: 2;
+    background-color: rgb(215, 211, 211);
+    border-radius: 10px 0 0 10px;
+    
+
+}
+.child2{
+    flex: 1;
+    background-color: #f06eba;
+    border-radius: 0 10px 10px 0;
+}
+
+.shopcart{
+    margin: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cartinfo{
+    display: flex;
+    font-size: 18px;
+}
+
+
+
+    
+    
+    
+
+.cartchild2{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 200px;
+    
+}
+
+.cartchild3{
+   margin-top: 30px;
+   margin-left: 100px; 
+}
+
+.cartchild4{
+    margin-top: 30px;
+    margin-left: 250px;
+} 
+
+ 
+img{
+    width: 100px;
+} 

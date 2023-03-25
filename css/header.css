@@ -1,0 +1,90 @@
+
+
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(252,155,171);
+    padding: 22px;
+  }
+  
+  .feature{
+    display: flex;
+  
+  }
+  
+  .feature .app{
+    display: flex;
+    margin-inline: 22px;
+  }
+  
+  .feature .app .i{
+    margin-inline: 8px;
+  }
+  
+  .sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+  }
+  
+  .sec-nav ul li img{
+    width: 8%;
+  }
+  
+  .sec-nav ul li a{
+    margin-inline: 22px;
+  }
+  
+  .sec-nav .inputs{
+    display: flex;
+  }
+  
+  .sec-nav .inputs button{
+    margin-inline: 22px;
+    width: 88px;
+    height: 35px;
+    background-color: rgb(251,106,130);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+  
+  }
+  
+  .sec-nav .inputs input{
+    width: 220px;
+    background-color: rgb(225,217,217);
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+  }
+  .items ul li a{
+    list-style: none;
+    margin-inline: 22px;
+    text-align: center;
+  
+  }
+  
+  .items ul li button{
+    width: 100px;
+    height: 34px;
+    background-color: rgb(251,106,130);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .items ul li{
+    list-style: none;
+  }

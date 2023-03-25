@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+button,
+label {
+  background: #f3f3ff ;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#login-register {
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-top: 50px;
+}
+#login-panel {
+  position: absolute;
+  display: inline-block;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  z-index: 5;
+  background: #f3f3ff ;
+  top: -40px;
+  transition: 0.5s;
+  min-height: 310px;
+  
+}
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  padding: 15px 0;
+  border: 0;
+  border-bottom: solid 1px #dddddd;
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  margin: 20px;
+  width: 250px;
+}
+#login-panel form  {
+  
+  position: relative;
+  transition: 0.5s;
+  top: 0;
+}
+#login-panel button {
+  margin: 0 auto;
+  display: block;
+  background: #FC2779;
+  border-radius: 5px;
+  color: white;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+#login-panel button:hover {
+  background: #FC2779;
+}
+#login-panel button p {
+  position: relative;
+  top: 0;
+  padding: 0;
+  margin: 0 0 15px 0;
+  transition: 0.5s;
+}
+
+#box {
+  display: grid;
+  border: 1px solid #FC2779;
+  grid-template-columns: 1fr 1fr;
+  min-height: 450px;
+  width: 750px;
+  position: relative;
+}
+#box:first-child {
+  background: #FC2779;
+}
+
+
+
+label {
+  display: inline-block;
+  margin: 300px 0 10px 0;
+  cursor: pointer;
+  color: #FC2779;
+  border: 1px solid #FC2779;
+  padding: 10px 50px;
+  transition: 0.5s;
+  text-align: center;
+  height: 20px;
+  width: 100px;
+  justify-self: center;
+}
+label:hover {
+  color: white;
+  background-color: #FC2779;
+}
+input[type="checkbox"] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.btn-google {
+display: inline-block;
+background: rgb(252, 252, 252);
+color: #444;
+width: 175px;
+height: 30px;
+border-radius: 5px;
+border: thin solid #888;
+box-shadow: 1px 1px 1px grey;
+white-space: nowrap;
+}
+
+
+
+#sign-up-toggle:not(:checked) ~ #login-toggle:not(:checked) ~ #login-panel {
+  left: 7%;
+}
+#sign-up-toggle:not(:checked) ~ #login-toggle:checked ~ #login-panel  {
+  left: 48%;
+  
+  
+}
+#sign-up-toggle:not(:checked) ~ #login-toggle:checked ~ #login-panel form {
+  top: -180%;
+  
+ 
+  
+}
+#sign-up-toggle:not(:checked) ~ #login-toggle:checked ~ #login-panel button p  {
+  top: -35px;
+  
+
+}
+#sign-up-toggle:checked ~ #login-toggle:checked ~ #login-panel {
+  left: 7%;
+}
+#sign-up-toggle:checked ~ #login-toggle:not(:checked) ~ #login-panel {
+  left: 48%;
+}
+#sign-up-toggle:checked ~ #login-toggle:not(:checked) ~ #login-panel form {
+  top: -180px;
+}
+#sign-up-toggle:checked ~ #login-toggle:not(:checked) ~ #login-panel button p {
+  top: -35px;
+}
+
+
+
