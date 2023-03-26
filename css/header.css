@@ -88,3 +88,21 @@
   .items ul li{
     list-style: none;
   }
+
+  @media (max-width :786px) 
+  {
+   .f-nav{
+    padding: 10px;
+    font-size: small;
+   } 
+   .sec-nav .inputs input{
+    width: 100px;
+    height: 70px;
+   }
+  }
+  @media (min-width: 375px){
+    .sec-nav .inputs input{
+      width: 75px;
+      height: 50px;
+    }
+  }
