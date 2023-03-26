@@ -95,7 +95,7 @@
 
   .image-button{
     
-        background-image: url("/images/cart.png");
+        background-image: url("../images/cart.png");
         background-size: cover; /* or contain, depending on your needs */
         border: none;
         padding: 0;
