@@ -53,8 +53,11 @@
   
   }
   
+  
+  
   .sec-nav .inputs input{
-    width: 220px;
+    width: 190px;
+    height: 50px;
     background-color: rgb(225,217,217);
     border: none;
     outline: none;
@@ -85,24 +88,9 @@
     border-radius: 5px;
   }
   
-  .items ul li{
+  .items ul li :hover{
     list-style: none;
+    color: purple;
   }
 
-  @media (max-width :786px) 
-  {
-   .f-nav{
-    padding: 10px;
-    font-size: small;
-   } 
-   .sec-nav .inputs input{
-    width: 100px;
-    height: 70px;
-   }
-  }
-  @media (min-width: 375px){
-    .sec-nav .inputs input{
-      width: 75px;
-      height: 50px;
-    }
-  }
+  

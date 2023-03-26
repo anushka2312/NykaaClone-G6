@@ -28,7 +28,6 @@ label {
   top: -40px;
   transition: 0.5s;
   min-height: 310px;
-  
 }
 input[type="text"],
 input[type="password"],
@@ -42,8 +41,7 @@ input[type="email"] {
   margin: 20px;
   width: 250px;
 }
-#login-panel form  {
-  
+#login-panel form {
   position: relative;
   transition: 0.5s;
   top: 0;
@@ -93,8 +91,8 @@ label {
   padding: 10px 50px;
   transition: 0.5s;
   text-align: center;
-  height: 20px;
-  width: 100px;
+  height: 50px;
+  width: 200px;
   justify-self: center;
 }
 label:hover {
@@ -111,7 +109,7 @@ input[type="checkbox"] {
 display: inline-block;
 background: rgb(252, 252, 252);
 color: #444;
-width: 175px;
+width: 200px;
 height: 30px;
 border-radius: 5px;
 border: thin solid #888;
@@ -124,21 +122,14 @@ white-space: nowrap;
 #sign-up-toggle:not(:checked) ~ #login-toggle:not(:checked) ~ #login-panel {
   left: 7%;
 }
-#sign-up-toggle:not(:checked) ~ #login-toggle:checked ~ #login-panel  {
+#sign-up-toggle:not(:checked) ~ #login-toggle:checked ~ #login-panel {
   left: 48%;
-  
-  
 }
 #sign-up-toggle:not(:checked) ~ #login-toggle:checked ~ #login-panel form {
-  top: -180%;
-  
- 
-  
+  top: -180px;
 }
-#sign-up-toggle:not(:checked) ~ #login-toggle:checked ~ #login-panel button p  {
+#sign-up-toggle:not(:checked) ~ #login-toggle:checked ~ #login-panel button p {
   top: -35px;
-  
-
 }
 #sign-up-toggle:checked ~ #login-toggle:checked ~ #login-panel {
   left: 7%;

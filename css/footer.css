@@ -59,7 +59,8 @@ ul{
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #ffffff;
+	color: #e50697;
+	font-weight: bold;
 	padding-left: 8px;
 }
 
